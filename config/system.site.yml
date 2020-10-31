@@ -1,0 +1,14 @@
+uuid: 45c72899-af4f-4ff0-9884-a0df85aee8b2
+name: bain
+mail: medinasod@users.noreply.github.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
