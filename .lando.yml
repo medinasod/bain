@@ -1,0 +1,17 @@
+name: bain
+recipe: pantheon
+config:
+  framework: drupal8
+  site: bain
+  id: 135afbd9-25a5-463e-8c94-9eadc431435a
+services:
+  appserver:
+    type: php
+    config:
+      php: conf/php.ini
+tooling:
+  composer:
+    service: appserver
+    description: Run composer commands
+    cmd:
+      - php -dmemory_limit=-1 /usr/local/bin/composer
